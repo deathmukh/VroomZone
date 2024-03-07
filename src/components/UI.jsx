@@ -57,7 +57,7 @@ export const UI = () => {
       ${loadingSlide ? "" : "translate-y-[100%]"}
       `}
       >
-        VROOM, VROOM
+      LESSGOOOOOOOO
         <img src={`images/cars/${CAR_MODELS[loadingContent]}.png`} />
       </div>
       <div

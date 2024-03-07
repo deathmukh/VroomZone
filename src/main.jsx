@@ -5,7 +5,7 @@ import App from "./App";
 import "./index.css";
 
 insertCoin({
-  skipLobby: true,
+  // skipLobby: true,
 }).then(() =>
   ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>

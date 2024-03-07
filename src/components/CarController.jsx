@@ -25,13 +25,13 @@ export const CarController = ({ state, controls }) => {
   const me = myPlayer();
   const { rotationSpeed, carSpeed } = useControls({
     carSpeed: {
-      value: 3,
+      value: 2,
       min: 0,
       max: 10,
       step: 0.1,
     },
     rotationSpeed: {
-      value: 3,
+      value: 2,
       min: 0,
       max: 10,
       step: 0.01,
